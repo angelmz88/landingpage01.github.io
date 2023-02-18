@@ -1,0 +1,324 @@
+/* Responsive settings */
+
+/* Menu settings */
+
+@media screen and (min-width: 721px) {
+  .toggle-menu {
+    display: none;
+  }
+}
+
+/* Extra Large Desktop */
+@media screen and (min-width: 1921px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 30px !important;
+  }
+}
+
+/* Large Desktop */
+@media screen and (max-width: 1920px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 25px !important;
+  }
+}
+
+/* Normal Desktop */
+@media screen and (max-width: 1440px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 18px !important;
+  }
+}
+
+/* Laptop */
+@media screen and (max-width: 1366px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 20px !important;
+  }
+
+  .contact-item {
+    width: 50%;
+  }
+
+  .contact-list-item img {
+    width: 35%;
+  }
+  .form-button {
+    width: 50% !important;
+  }
+}
+
+/* Large Smartphone */
+@media screen and (max-width: 720px) {
+  .toggle-menu {
+    width: 15%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    /* top: 1rem;
+    right: 1rem;
+    z-index: 1; */
+  }
+
+  .toggle-menu img {
+    width: 90%;
+  }
+
+  .nav-img,
+  .toggle-menu {
+    align-self: flex-start;
+    height: 10vh;
+  }
+
+  .responsive {
+    height: 50vh;
+  }
+
+  .header-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    height: 90%;
+    display: none;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-img {
+    align-self: self-start;
+    justify-self: start;
+  }
+
+  .header {
+    justify-content: space-evenly;
+    align-items: start;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 25px !important;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-item {
+    width: 100%;
+  }
+
+  .gallery-content {
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(6, 15%);
+    grid-template-areas:
+      "a a b b"
+      "a a c c"
+      "d d e e"
+      "f f g g"
+      "h h i i"
+      "j j k k";
+  }
+
+  .location-content {
+    flex-direction: column;
+  }
+
+  .location-item {
+    width: 100%;
+  }
+
+  .location-item-2 {
+    align-items: start;
+    height: 30% !important;
+  }
+
+  .contact {
+    height: 100vh;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vh;
+  }
+
+  .contact-item {
+    width: 100%;
+  }
+
+  .contact-social {
+    margin-bottom: 10%;
+  }
+
+  .contact-a img {
+    width: 30%;
+  }
+
+  .form-button {
+    width: 50% !important;
+  }
+}
+
+/* Normal smartphone */
+@media screen and (max-width: 700px) {
+  .banner-item {
+    text-align: center;
+  }
+
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 18px !important;
+  }
+
+  .about {
+    justify-content: start;
+    height: 80vh;
+  }
+
+  .contact-content {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  .contact-a img {
+    width: 25%;
+    margin: 5px;
+  }
+
+  .contact-ul {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .contact-form {
+    height: 75%;
+  }
+
+  .form-button {
+    width: 50%;
+  }
+}
+/* Normal smartphone */
+@media screen and (max-width: 375px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 16px !important;
+  }
+
+  .about {
+    height: 80vh;
+  }
+
+  .contact-content {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  .contact-a img {
+    width: 25%;
+    margin: 5px;
+  }
+
+  .contact-ul {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .contact-form {
+    height: 75%;
+  }
+
+  .form-button {
+    width: 50%;
+  }
+}
+
+@media (max-height: 375px) and (orientation: landscape) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 12px !important;
+  }
+
+  .about {
+    height: 100vh;
+  }
+
+  .about-content {
+    justify-content: start;
+  }
+
+  .about-video {
+    width: 55%;
+  }
+
+  .gallery-content {
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(4, 22%);
+    grid-template-areas:
+      "a b c"
+      "a d e"
+      "f g h"
+      "i j k";
+  }
+
+  .location {
+    height: 120vh;
+  }
+
+  .contact-content {
+    flex-direction: row;
+  }
+
+  .contact-ul {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Little smartphone */
+@media screen and (max-width: 360px) {
+  section,
+  section p,
+  .header,
+  .footer {
+    font-size: 14px !important;
+  }
+}
